@@ -1,0 +1,246 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, target-densitydpi=medium-dpi, user-scalable=0" />
+
+    <!-- 
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    -->
+
+    <title>RENISHAW MANUALS</title>
+
+    <!--stylesheets-->
+    <link href="css/jquery.mobile-1.4.3.min.css" rel="stylesheet" />
+    <link href="css/reni.min.css" rel="stylesheet"/>
+
+    <!--script-->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.3.min.js"></script>
+
+</head> <!--Head-->
+<body>
+
+    <section data-role="page" data-theme="c" id="home">
+        <div data-role="header">
+            <h1>Renishaw Manuals</h1>
+        </div><!--header-->
+
+        <article data-role="content">
+
+        <div id="container" style="text-align:center">
+            <p>
+                <img src="images/logo-ren.png" />
+            </p>
+            <p>
+                <a href="#hardware"><img src="images/img-hrdwr.png" /></a>
+                <a href="#software"><img src="images/img-sftwr.png" /></a>
+            </p>
+        </div><!--ImageContainer-->
+
+        </article><!--content-->
+        <div data-role="footer" data-position="fixed">Developed by Hiram Christian, 2014</div>
+    </section><!--home-->
+
+    <section data-role="page" data-theme="c" id="software">
+        <div data-role="header">
+            <h1>Renishaw Manuals</h1>
+            <a href="#home">Back</a>
+            <!--<a href="#hardware">Back</a>-->
+        </div><!--header-->
+
+        <article data-role="content">
+            <!--images-->
+            <p style="text-align:center">
+                <img src="images/logo-ren.png" />
+            </p>
+            <!--images-->
+
+            <h1>Renishaw Programming Manuals</h1>
+            
+            <div data-role="controlgroup">
+                <a href="#" onclick="window.open('manuals/software/H-2000-6333-0C-A.PDF', '_blank', 'fullscreen=yes'); return false;" class="ui-btn ui-shadow ui-conrer-all ui-icon-carat-r ui-btn-icon-right">Non-contact tool setting software - Programming guide</a>
+                <a href="#" onclick="window.open('manuals/software/H-2000-6525-00-C.PDF', '_blank', 'fullscreen=yes'); return false;" class="ui-btn ui-shadow ui-conrer-all ui-icon-carat-r ui-btn-icon-right">Five-face contact tool setting cycles - Programming manual</a>
+            </div><!--controlgroup-->
+
+        </article><!--content-->
+        <div data-role="footer" data-position="fixed">Developed by Hiram Christian, 2014</div>
+    </section><!--software -->
+
+    <section data-role="page" data-theme="c" id="hardware">
+        <div data-role="header">
+            <h1>Renishaw Manuals</h1>
+            <a href="#home">Back</a>
+            <a href="#info">Info</a>
+        </div><!--header-->
+
+        <article data-role ="content">
+            <!--images-->    
+            <p style="text-align:center">
+                    <img src="images/logo-ren.png" />
+                </p>    
+            <div style="text-align:center">
+                <img src="images/nc4.jpg" style="height: 100px; width: 176px" />
+                <img src="images/ts27r.jpg" style="height: 111px; width: 175px" />
+                <img src="images/LP2.jpg" style="height: 168px; width: 76px" />
+                <img src="images/OTS.jpg" style="height: 111px; width: 145px" />
+            </div>
+            <!--images-->
+
+            <h1>Tool Setter Types</h1>
+            
+            <div data-role="collapsible" data-collapsed="true">
+                <h4>Non Contact Tool Setter</h4>
+                <ul data-role="listview">
+                    <li><a href="#nc4">NC4 Non Contact</a></li>
+                </ul>
+            </div><!--collapsible-->
+            
+            <div data-role="collapsible" data-collapsed="true">
+                <h4>Contact Tool Setter</h4>
+                <ul data-role="listview">
+                    <li><a href="#hrd-TS27">TS27R</a></li>
+                    <li><a href="#hrd-ots">OTS</a></li>
+                    <li><a href="#hrd-lp2">LP2</a></li>
+                </ul>
+            </div><!--collapsible-->
+
+            <div data-role="collapsible" data-collapsed="true">
+                <h4>Miscellaneous</h4>
+                <ul data-role="listview">
+                    <!-- <a href="manuals/misc/H-2000-5026-01-A.pdf">manuals/misc/H-2000-5026-01-A.pdf</a>
+                    <a href="manuals/misc/H-2000-5236-02-B.pdf">manuals/misc/H-2000-5236-02-B.pdf</a>-->
+
+                    <li><a href="#" onclick="window.open('manuals/misc/H-2000-5026-01-A.pdf', '_blank', 'fullscreen=yes'); return false;">Skip Sharing Module Installation & User's Guide</a></li>
+                    <li><a href="#" onclick="window.open('manuals/misc/H-2000-5236-02-B.pdf', '_blank', 'fullscreen=yes'); return false;">NCi-4 non-contact tool setting interface - Installation and user’s guide</a></li>
+                </ul>
+            </div><!--collapsible-->
+
+        </article><!--content-->
+        <div data-role="footer" data-position="fixed">Developed by Hiram Christian, 2014</div>
+    </section><!--hardware-->
+
+    <section data-role="page" data-theme="c" id="nc4">
+        <div data-role="header">
+            <h1>Renishaw Manuals</h1>
+            <a href="#home">Home</a>
+            <a href="#hardware">Back</a>
+        </div><!--header-->
+
+        <article data-role="content">
+            <!--images-->
+            <p style="text-align:center">
+                <img src="images/logo-ren.png" />
+            </p>
+            <p><img src="images/nc4.jpg" /></p>
+            <!--images-->
+
+            <h1>NC4 Non-Contact Tool Setting Probe</h1>
+
+            <div data-role="controlgroup">
+                <a href="#" onclick="window.open('manuals/nc4/H-2000-5230-05-A.pdf', '_blank', 'fullscreen=yes'); return false;" class="ui-btn ui-shadow ui-conrer-all ui-icon-carat-r ui-btn-icon-right">Installation and maintenance guide</a>
+                <a href="#" onclick="window.open('manuals/nc4/H-2000-4109-02-A.pdf', '_blank', 'fullscreen=yes'); return false;" class="ui-btn ui-shadow ui-conrer-all ui-icon-carat-r ui-btn-icon-right">NC4 Servicing - Cleaning the optics</a>
+                <a href="#" onclick="window.open('manuals/nc4/H-2000-2224-06-A.pdf', '_blank', 'fullscreen=yes'); return false;" class="ui-btn ui-shadow ui-conrer-all ui-icon-carat-r ui-btn-icon-right">Data Sheet</a>
+                <a href="#" onclick="window.open('manuals/nc4/H-2000-2223-02-A.pdf', '_blank', 'fullscreen=yes'); return false;" class="ui-btn ui-shadow ui-conrer-all ui-icon-carat-r ui-btn-icon-right">System Accessories - Data Sheet</a>
+                <a href="#" onclick="window.open('manuals/nc4/H-2000-6268-00-A.PDF', '_blank', 'fullscreen=yes'); return false;" class="ui-btn ui-shadow ui-conrer-all ui-icon-carat-r ui-btn-icon-right">Measuring positions for non-contact tool setting - User leaflet</a>
+            </div><!--controlgroup-->
+
+        </article><!--content-->
+        <div data-role="footer" data-position="fixed">Developed by Hiram Christian, 2014</div>
+    </section><!--hardware NC4 -->
+
+    <section data-role="page" data-theme="c" id="hrd-TS27">
+        <div data-role="header">
+            <h1>Renishaw Manuals</h1>
+            <a href="#home">Home</a>
+            <a href="#hardware">Back</a>
+        </div><!--header-->
+
+        <article data-role="content">
+            <!--images-->
+            <p style="text-align:center">
+                <img src="images/logo-ren.png" />
+            </p>
+            <p><img src="images/ts27r.jpg" /></p>
+            <!--images-->
+
+            <h1>TS27R Contact Tool Setting Probe</h1>
+
+            <div data-role="controlgroup">
+                <a href="#" onclick="window.open('manuals/ts27r/H-2000-5018-08-A.pdf', '_blank', 'fullscreen=yes'); return false;" class="ui-btn ui-shadow ui-conrer-all ui-icon-carat-r ui-btn-icon-right">Installation and user's guide</a>
+                <a href="#" onclick="window.open('manuals/ts27r/H-2000-2171-05-A.pdf', '_blank', 'fullscreen=yes'); return false;" class="ui-btn ui-shadow ui-conrer-all ui-icon-carat-r ui-btn-icon-right">Data Sheet</a>
+                <a href="#" onclick="window.open('manuals/ts27r/H-2000-4092-02-A.pdf', '_blank', 'fullscreen=yes'); return false;" class=" ui-btn ui-shadow ui-conrer-all ui-icon-carat-r ui-btn-icon-right">Break Stem Retrofit Kit</a>
+            </div><!--controlgroup-->
+
+        </article><!--content-->
+        <div data-role="footer" data-position="fixed">Developed by Hiram Christian, 2014</div>
+    </section><!--hardware ts27r -->
+
+    <section data-role="page" data-theme="c" id="hrd-ots">
+        <div data-role="header">
+            <h1>Renishaw Manuals</h1>
+            <a href="#home">Home</a>
+            <a href="#hardware">Back</a>
+        </div><!--header-->
+
+        <article data-role="content">
+            <!--images-->
+            <p style="text-align:center">
+                <img src="images/logo-ren.png" />
+            </p>
+            <p><img src="images/OTS.jpg" /></p>
+            <!--images-->
+
+            <h1>OTS Contact Tool Setting Probe</h1>
+
+            <div data-role="controlgroup">
+                <a href="#" onclick="window.open('manuals/ots/H-5514-8504-02-B.pdf', '_blank', 'fullscreen=yes'); return false;" class="ui-btn ui-shadow ui-conrer-all ui-icon-carat-r ui-btn-icon-right">Installation guide</a>
+                <a href="#" onclick="window.open('manuals/ots/A-5514-8500.pdf', '_blank', 'fullscreen=yes'); return false;" class="ui-btn ui-shadow ui-conrer-all ui-icon-carat-r ui-btn-icon-right">Quick Start Guide</a>
+                <a href="#" onclick="window.open('manuals/ots/H-5514-8200-01-A.pdf', '_blank', 'fullscreen=yes'); return false;" class="ui-btn ui-shadow ui-conrer-all ui-icon-carat-r ui-btn-icon-right">Data Sheet</a>
+            </div><!--controlgroup-->
+
+        </article><!--content-->
+        <div data-role="footer" data-position="fixed">Developed by Hiram Christian, 2014</div>
+    </section><!--hardware ots -->
+
+    <section data-role="page" data-theme="c" id="hrd-lp2">
+        <div data-role="header">
+            <h1>Renishaw Manuals</h1>
+            <a href="#home">Home</a>
+            <a href="#hardware">Back</a>
+        </div><!--header-->
+
+        <article data-role="content">
+            <!--images-->
+            <p style="text-align:center">
+                <img src="images/logo-ren.png" />
+            </p>
+            <p><img src="images/LP2.jpg" /></p>
+            <!--images-->
+
+            <h1>LP2 Modular Probe System</h1>
+
+        </article><!--content-->
+        <div data-role="footer" data-position="fixed">Developed by Hiram Christian, 2014</div>
+    </section><!--hardware lp2 -->
+
+    <section data-role="page" data-theme="c" id="info">
+        <div data-role="header">
+            <h1>Renishaw Manuals</h1>
+            <a href="#home">Home</a>
+        </div><!--header-->
+
+        <article data-role="content">
+            <h1>Renishaw Manuals-Mobile Navigator</h1>
+        <p> Mobile App developed by Hiram Christian inteded for use with Renishaw manuals downloaded via the web or through the software CDs supplied with equipment purchased.</p>
+
+
+        </article><!--content-->
+        <div data-role="footer" data-position="fixed">Footer</div>
+    </section><!--info-->
+
+    
+</body>
+</html>
